@@ -1,35 +1,32 @@
-# Shoes E-Commerce Website
+# Shoe E-Commerce Website
 
-A modern, responsive shoe e-commerce website built with React, TypeScript, Node.js, and PostgreSQL.
+A modern, responsive shoe e-commerce website with product catalog and detail pages.
 
 ## Features
 
-- Product catalog with categories
-- Product detail pages with reviews
-- Quick view functionality
-- Responsive design for all devices
-- Product filtering and sorting
+- Modern UI with responsive design
+- Product catalog with filters
+- Product detail pages
+- Category browsing
+- Featured products section
+- Newsletter subscription
 
-## Technology Stack
+## Tech Stack
 
-- **Frontend**: React, TypeScript, TailwindCSS, Shadcn/UI
-- **Backend**: Node.js, Express
-- **Database**: PostgreSQL with Drizzle ORM
-- **State Management**: TanStack Query (React Query)
-- **Routing**: Wouter
+- React with TypeScript
+- TailwindCSS with ShadCN UI components
+- Express.js backend
+- PostgreSQL database with Drizzle ORM
+- Vite for building and development
 
-## Setup Instructions
+## Getting Started
 
-1. Clone the repository
+1. Clone this repository
 2. Install dependencies: `npm install`
-3. Set up your PostgreSQL database
-4. Run migrations: `npm run db:push`
+3. Set up your PostgreSQL database and update the DATABASE_URL in .env
+4. Run database migrations: `npm run db:push`
 5. Seed the database: `npm run db:seed`
 6. Start the development server: `npm run dev`
-
-## Screenshots
-
-Add screenshots of your application here.
 
 ## License
 
